@@ -4,7 +4,11 @@
 To redesign the Faith & Reason landing page to improve mobile responsiveness and ADA compliance while sticking to the fell of Franciscan University.
 
 ## Performance Optimization:
-- **Images** -- optimized using WebP
+- **Head Optimization**
+    - *Doctype* -- added Doctype declaration to avoid "Quirks Mode".
+    - *Viewport* -- changed scale="1" to initial-scale=1.0 to ensure correct sizing across mobile devices.
+    - *Connection Priming* -- moved preconnect tags to top of file to reduce total blocking time. 
+- **Images** -- Converted all to WebP for faster loading
 - **CSS** -- minimized for speed and quality factors
 
 ## Accessibility Features
