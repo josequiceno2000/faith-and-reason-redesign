@@ -19,6 +19,7 @@ To redesign the Faith & Reason landing page to improve mobile responsiveness and
 - **ARIA Landmarks** -- 
 - **Skip to Content Link** -- added a skip link to allow keyboard users to go jump from the menu straight into the main content.
 -- **Semantic Header** -- added aria-label to nav and wrapped it in a header tag.
+-- **Hero Section** -- gave main tag a "main" role and wrapped hero section in a section tag with aria label.
 
 ## WordPress Readiness
 The codebase is modeled off of WordPress standards, meaning it uses modular components which were tailor-designed for porting into a custom WordPress theme.
