@@ -8,6 +8,7 @@ To redesign the Faith & Reason landing page to improve mobile responsiveness and
     - *Doctype* -- added Doctype declaration to avoid "Quirks Mode".
     - *Viewport* -- changed scale="1" to initial-scale=1.0 to ensure correct sizing across mobile devices.
     - *Connection Priming* -- moved preconnect tags to top of file to reduce total blocking time. 
+    - *Global Tracking Scripts* -- mark all google tag manager script tags with defer.
 - **Images** -- Converted all to WebP for faster loading
 - **CSS** -- minimized for speed and quality factors
 
