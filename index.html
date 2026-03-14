@@ -1181,9 +1181,6 @@
         .landing-page main > .footer-gradient {
                 display: none;
         }
-        .landing-page main + footer {
-            /*margin-top: 2rem;*/
-        }
 
         @media only screen and (max-width: 768px) {
             .landing-page main .site-para-box {
@@ -3216,7 +3213,7 @@
     <div id="om-lkxru0vmipb3hh2ouxvi-holder">
     </div>
     <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", fucntion() {
+        document.addEventListener("DOMContentLoaded", function() {
 
             // --- First Name Personalization ---
             var getQueryParam = function(a) {
@@ -3241,7 +3238,7 @@
             function setSeason(a, b) {
                 b = this || b;
                 if (!b) return console.warn("Season dropdown element not found.");
-                if (!a || a.length === 0) return console.war("Season value to set is undefined or empty.");
+                if (!a || a.length === 0) return console.warn("Season value to set is undefined or empty.");
                 b.value = a;
                 b.dispatchEvent(new Event("change"));
                 console.log("Update seasons dropdown:", b.name + "=" + b.value);
@@ -3261,7 +3258,7 @@
                 if ((a = a.searchParams.get(c)) && a.length > 0) {
                     g(a) ? h(a) : console.warn(a + " is not a valid option");
                 }
-            })(new URL(window.loction.href));
+            })(new URL(window.location.href));
         });
     </script>
     </body>
