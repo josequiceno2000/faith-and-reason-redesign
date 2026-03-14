@@ -1,6 +1,6 @@
 # Faith and Reason Landing Page Redesign
 ![Redesigned Website](./docs/improvement%20v1.0.0.png "Redesigned Website")
-Frontend performance, accessibility, and UX facelift fro the Faith & Reason landing page.
+Frontend performance, accessibility, and UX facelift to the Faith & Reason landing page.
 
 This project has taken the original implementation and makes improvements to the **performance, maintainability, accessibility, and WordPress integration readiness** of the website. All the while, the visual identity of Franciscan is respected and maintained.
 
