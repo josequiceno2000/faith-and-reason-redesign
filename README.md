@@ -14,6 +14,7 @@ To redesign the Faith & Reason landing page to improve mobile responsiveness and
 - **Images** -- converted all to WebP for faster loading
 - **CSS** -- minimized for speed and quality factors
 - **Bottom Internal Script** -- wrapped custom logic (setSeason, getQueryParam) in event listener so it fires after HTML is parsed.
+- **Script Deferring** -- deferred all scripts with src attribute
 
 ## Accessibility Features
 - **ARIA Landmarks** -- added several aria labels/landmarks for accessibility.
